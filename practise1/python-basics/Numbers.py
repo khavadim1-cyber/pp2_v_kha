@@ -7,7 +7,8 @@ print(type(z))
 
 q = 1.10 #example 2
 w = 1.0
-e = -35.59
+e = -395.59
+a=int(q)
 print(type(q))
 print(type(w))
 print(type(e))
