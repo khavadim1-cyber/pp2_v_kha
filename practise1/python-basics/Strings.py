@@ -18,3 +18,5 @@ print(b[:5])
 
 a = " Hello, World! "#example 5
 print(a.strip())
+
+print("Тест изменений") #example 1!
