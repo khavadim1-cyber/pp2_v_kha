@@ -1,4 +1,11 @@
-score = 75#example1
+a = 33#example1
+b = 32
+if b > a:
+  print("b is greater than a")
+else:
+  print("a and b are not equal")
+
+score = 75#example2
 if score >= 90:
   print("Grade: A")
 elif score >= 80:
@@ -8,7 +15,7 @@ elif score >= 70:
 else:
   print("Grade: D")
 
-age = 25#example2
+age = 25#example3
 if age < 13:
   print("You are a child")
 elif age < 20:
@@ -18,7 +25,7 @@ elif age < 65:
 else:
   print("You are a senior")
 
-day = 3
+day = 3#example4
 if day == 1:
   print("Monday")
 elif day == 2:
@@ -33,3 +40,4 @@ elif day == 6:
   print("Saturday")
 else:
   print("Sunday")
+

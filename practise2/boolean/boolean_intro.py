@@ -12,8 +12,11 @@ else:
 print(bool("Hello"))#example3
 print(bool(15))
 
-x = "Hello"
+x = "Hello"#example4
 y = 15
-
 print(bool(x))
 print(bool(y))
+
+bool("abc")#example5
+bool(123)
+bool(["apple", "cherry", "banana"])
