@@ -13,5 +13,4 @@ print(p3.x)
 
 class Person:#class cant be empty
   pass
-
 del p1#deleting object
