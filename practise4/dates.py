@@ -14,5 +14,7 @@ print(f"{x+z}, tomorrow")
 print(x.strftime("%Y-%m-%d %H:%M:%S"))
 
 #ex4
-input_time=input()
-current_time = datetime.datetime.now()
+from datetime import datetime
+a=datetime.strptime(input(),"%Y-%m-%d %H:%M:%S")
+b=datetime.strptime(input(),"%Y-%m-%d %H:%M:%S")
+print(abs(int((b-a).total_seconds())))
